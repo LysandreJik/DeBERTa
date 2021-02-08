@@ -204,7 +204,7 @@ We present the dev results on SQuAD 1.1/2.0 and several GLUE benchmark tasks.
 | [DeBERTa-Large](https://huggingface.co/microsoft/deberta-large)<sup>1</sup> | 95.5/90.1 | 90.7/88.0 | 91.3/91.1| 96.5|95.3| 69.5| 91.0| 92.6/94.6| 92.3/- |92.8/92.5 |
 | [DeBERTa-XLarge](https://huggingface.co/microsoft/deberta-xlarge)<sup>1</sup> | -/-  | -/-  | 91.5/91.2| - | - | -    | 93.1   | 92.1/94.3    | -    |92.9/92.7|
 | [DeBERTa-XLarge-V2](https://huggingface.co/microsoft/deberta-xlarge-v2)<sup>1</sup>|95.8/90.8| 91.4/88.9|91.7/91.6| **97.5**| 95.8|71.1|**93.9**|92.0/94.2|92.3/89.8|92.9/92.9|
-|**[DeBERTa-XXLarge-V2](https://huggingface.co/microsoft/deberta-xxlarge-v2)<sup>1</sup>**|**96.1/91.4**|**92.2/89.7**|**91.7/91.9**|97.2|**96.0**|72.0| 93.5| **93.1/94.9**|**92.7/90.3** |**93.2/93.1** |
+|**[DeBERTa-XXLarge-V2](https://huggingface.co/microsoft/deberta-xxlarge-v2)<sup>1</sup>**|**96.1/91.4**|**92.2/89.7**|**91.7/91.9**|97.2|**96.0**|**72.0**| 93.5| **93.1/94.9**|**92.7/90.3** |**93.2/93.1** |
 --------
 ##### Notes.
  - <sup>1</sup> For RTE, MRPC, STS-B, we fine-tune the task based on [DeBERTa-Large-MNLI](https://huggingface.co/microsoft/deberta-large-mnli),[DeBERTa-XLarge-MNLI](https://huggingface.co/microsoft/deberta-xlarge-mnli),[DeBERTa-XLarge-V2-MNLI](https://huggingface.co/microsoft/deberta-xlarge-v2-mnli),[DeBERTa-XXLarge-V2-MNLI](https://huggingface.co/microsoft/deberta-xxlarge-v2-mnli).
